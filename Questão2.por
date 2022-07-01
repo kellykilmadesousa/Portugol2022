@@ -8,11 +8,11 @@ programa
 		escreva("\nEntre com o total de dias vividos por você: ")
 		leia(totalDias)//1000
 
-		ano = totalDias / 365//2
+		ano = totalDias / 365//1000 equivale a 2 anos e resta 270 dias
 		mes = (totalDias % 365) / 30//270 / 30 = 9
-		dia = (totalDias % 365) % 30//270 % 30 = 0
+		dia = (totalDias % 365) % 30//270 % 30 = 0 ou seja, não resta nada
 
-		escreva("\nVocê viveu: ",ano," ano(s), ",mes," mes(es) e ",dia," dia(s)")
+		escreva("\nVocê está com: ",ano," ano(s), ",mes," mes(es) e ",dia," dia(s)")
 		
 	}
 }
@@ -21,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 359; 
+ * @POSICAO-CURSOR = 357; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
