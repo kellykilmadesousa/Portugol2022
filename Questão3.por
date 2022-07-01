@@ -1,5 +1,6 @@
 programa
 {
+
 	
 	funcao inicio()
 	{
@@ -8,7 +9,7 @@ programa
 		escreva("\nEntre com a duração do evento na fábrica: ")
 		leia(totalSegundos)
 
-		hora = totalSegundos / 3600//segundos por hora
+		hora = totalSegundos / 3600//segundos por hora - 60 * 60
 		minuto = (totalSegundos % 3600) / 60
 		segundo = (totalSegundos % 3600) % 60
 
@@ -20,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 411; 
+ * @POSICAO-CURSOR = 415; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
